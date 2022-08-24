@@ -16,13 +16,13 @@ global.autoRecord = false //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 //═══════[modification]════════\\
 let number = process.env.OWNER_NUMBER;
-if (!number) { number = "919628516236"; }
+if (!number) { number = "523221383036"; }
 global.owner = number.split(",");
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port = process.env.PORT || 5000
 global.botname = process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨'
 global.ownername = process.env.ownername || 'Citels' //owner name
-global.SUDO = process.env.SUDO || '919628516236' 
+global.SUDO = process.env.SUDO || '523221383036' 
 global.packname = 'Secktor' //sticker package name
 global.author = 'SamPandey001' //sticker author name
 let pgdb = process.env.DATABASE_URL || "none";
